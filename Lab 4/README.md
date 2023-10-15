@@ -182,15 +182,21 @@ Usually, sensors need to be positioned in specific locations or orientations to 
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+## Wave hand to open door: Gesture Sensor
+
 ![Wave Hand  to Open Door (Gesture Sensor)](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/c5451b22-7688-4dde-aa85-9c07dcdaa2f7)
 
+## Capacitor Piano: Capacity Sensor
 ![Capacitor Piano](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/25de1a1f-c2aa-4609-b8dc-48f87270ddf8)
 
-
+## Dog Buttons: Capacity Sensor and Speaker
 ![Dog Buttons (Capacity Sensor and Speaker)](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/147a7f81-a317-4d7a-bf77-2e0153d1b746)
+
+## Theremin: Proximity Sensor and Speaker
 
 ![Theremin (proximity sensor)](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/94544e25-dcfd-4e4f-af14-bc4af0f3b32c)
 
+## Sensor Driven Games: BOP IT!!!
 ![Bop It Sensor Driven Game](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/08a7acee-ab57-44f7-9050-d9b50f6ee670)
 
 
@@ -238,22 +244,22 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+## Wave hand to open door: Gesture Sensor
 ![Display Wave Hand  to Open Door (Gesture Sensor)](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/d05eebc2-28e0-4e0d-82d9-9fbdecce49c4)
 
-
+## Capacitor Piano: Capacity Sensor
 ![Capacitor Piano (2)](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/96f0d6c2-3b64-410f-9785-7972e6566ff0)
 
-
-
+## Dog Buttons: Capacity Sensor and Speaker
 ![Dog Buttons (Capacity Sensor and Speaker) (2)](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/7c931fb4-b2dd-45fa-8bc0-97f817702366)
 
-
+## Theremin: Proximity Sensor and Speaker
 ![Theremin (proximity sensor)](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/ac558e7f-7fa8-4f05-a377-30f2afb81c3f)
 
-
+## Sensor Driven Games: BOP IT!!!
 ![Bop It Sensor Driven Game](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/0054d84e-8929-412d-beca-25cc4db932c9)
 
-
+## BOP IT Five Sketches
 ![BOTIT](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/4b8751d9-61d3-4d81-96e4-0431d2153516)
 
 
