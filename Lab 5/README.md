@@ -2,6 +2,8 @@
 
 **NAMES OF COLLABORATORS HERE**
 
+Ben Setel, Yifan Yu, Gloria Hu, Kenneth Lee, Michael Hanlon
+
 
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
 Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
