@@ -139,6 +139,8 @@ In an earlier version of this class students experimented with foundational comp
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+The interaction we prototyped involves using hand gestures to control the pitch and combination of notes played in real-time. We experimented with mapping the vertical position of the fingers to different musical notes, which allowed for an intuitive method of creating music by simply moving one's hands in the air.
+
 ### Part C
 ### Test the interaction prototype
 
@@ -155,6 +157,9 @@ For example:
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
 
+The system works well in a well-lit environment where the webcam clearly captures hand movements. However, it fails in low-light conditions or when the hand is too close or too far from the camera. Failures occurred mainly due to improper lighting or sudden movements that the hand tracking algorithm could not follow accurately. In real-world usage, users may experience issues if they do not understand the correct distance and lighting required for the system to function properly. To improve, we could implement feedback mechanisms that guide the user to the optimal position and lighting condition for the system to work correctly.
+
+
 ### Part D
 ### Characterize your own Observant system
 
@@ -170,8 +175,16 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+Our observant system is used for real-time music creation through hand gestures.
+A good environment for this system is a controlled lighting space with minimal background interference.
+The system breaks when the hand tracking fails due to poor lighting or if the hands move out of the camera's view.
+When it breaks, it could potentially generate random or no notes at all.
+The system feels like an extension of one's body, as it translates natural movement into music, providing an intuitive interface for digital music creation.
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+After refining the interaction based on testing, we have created an interactive system that lets users control a digital musical instrument with their hands. This can be expanded to more complex interactions such as creating different sounds with different hand shapes or combining gestures to compose music in a more sophisticated manner
