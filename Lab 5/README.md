@@ -190,16 +190,26 @@ Now that you have experimented with one or more of these sense-making systems **
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
   
+Our observant system is used for real-time music creation through hand gestures.
+
 * What is a good environment for X?
+
+A good environment for this system is a controlled lighting space with minimal background interference.
 
 * What is a bad environment for X?
 
+The system breaks when the hand tracking fails due to poor lighting or if the hands move out of the camera's view.
+
 * When it breaks how will X break?
 
+When it breaks, it could potentially generate random or no notes at all.
+
 * What are other properties/behaviors of X? How does X feel?
+The system feels like an extension of one's body, as it translates natural movement into music, providing an intuitive interface for digital music creation.
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+[https://youtu.be/wmnTtiT8cLs]
 
 ### Part 2.
 
@@ -207,3 +217,4 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
 
+[https://youtu.be/VkkK0bF_nbA]
