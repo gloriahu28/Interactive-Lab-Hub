@@ -139,7 +139,9 @@ In an earlier version of this class students experimented with foundational comp
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
-The interaction we prototyped involves using hand gestures to control the pitch and combination of notes played in real-time. We experimented with mapping the vertical position of the fingers to different musical notes, which allowed for an intuitive method of creating music by simply moving one's hands in the air.
+The interaction we prototyped involves using hand gestures to control the pitch and combination of notes played in real-time.
+
+We experimented with mapping the vertical position of the fingers to different musical notes, which allowed for an intuitive method of creating music by simply moving one's hands in the air.
 
 ### Part C
 ### Test the interaction prototype
@@ -147,18 +149,38 @@ The interaction we prototyped involves using hand gestures to control the pitch 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+The system works well in a well-lit environment where the webcam clearly captures hand movements.
+
+2. When does it fail?
+
+However, it fails in low-light conditions or when the hand is too close or too far from the camera. 
+   
+3. When it fails, why does it fail?
+
+Failures occurred mainly due to improper lighting or sudden movements that the hand tracking algorithm could not follow accurately.
+   
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+In real-world usage, users may experience issues if they do not understand the correct distance and lighting required for the system to function properly. To improve, we could implement feedback mechanisms that guide the user to the optimal position and lighting condition for the system to work correctly.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
 
-The system works well in a well-lit environment where the webcam clearly captures hand movements. However, it fails in low-light conditions or when the hand is too close or too far from the camera. Failures occurred mainly due to improper lighting or sudden movements that the hand tracking algorithm could not follow accurately. In real-world usage, users may experience issues if they do not understand the correct distance and lighting required for the system to function properly. To improve, we could implement feedback mechanisms that guide the user to the optimal position and lighting condition for the system to work correctly.
+The design of the system should clearly indicate to users when there is uncertainty in the system's response. Feedback mechanisms can be built into the interactive system to show confidence levels. For example, the system could use phrases like "I'm about 80% sure that..." to communicate uncertainty.
 
+2. How bad would they be impacted by a miss classification?
+
+The impact of a misclassification can vary widely depending on the system's application. For example, in a medical diagnosis system, a misclassification could have serious consequences, whereas in a music recommendation system, the impact would be much less severe.
+Consider the stakes involved and plan for fail-safes or human oversight where the impact of errors could be significant.
+
+3. How could change your interactive system to address this?
+
+Introduce a confirmation step where the system asks for user validation when the confidence level is below a certain threshold. Implement a feedback loop where users can correct the system, helping it to learn and reduce the likelihood of future misclassifications.
+  
+4. Are there optimizations you can try to do on your sense-making algorithm.
+
+Feature engineering can often improve the performance of classification algorithms by providing more relevant information for making decisions. Regularly retrain the model with new data to ensure that it remains accurate. Use more advanced machine learning models if the current ones do not capture the complexity of the task well.
 
 ### Part D
 ### Characterize your own Observant system
@@ -166,20 +188,26 @@ The system works well in a well-lit environment where the webcam clearly capture
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+  
+Our observant system is used for real-time music creation through hand gestures.
+
 * What is a good environment for X?
+
+A good environment for this system is a controlled lighting space with minimal background interference.
+
 * What is a bad environment for X?
-* When will X break?
+
+The system breaks when the hand tracking fails due to poor lighting or if the hands move out of the camera's view.
+
 * When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+
+When it breaks, it could potentially generate random or no notes at all.
+
+* What are other properties/behaviors of X? How does X feel?
+The system feels like an extension of one's body, as it translates natural movement into music, providing an intuitive interface for digital music creation.
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
-Our observant system is used for real-time music creation through hand gestures.
-A good environment for this system is a controlled lighting space with minimal background interference.
-The system breaks when the hand tracking fails due to poor lighting or if the hands move out of the camera's view.
-When it breaks, it could potentially generate random or no notes at all.
-The system feels like an extension of one's body, as it translates natural movement into music, providing an intuitive interface for digital music creation.
 
 ### Part 2.
 
