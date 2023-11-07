@@ -2,8 +2,7 @@
 
 **NAMES OF COLLABORATORS HERE**
 
-Kenneth Lee, Ben Setel, Gloria Hu, Yifan Yu 
-
+Ben Setel, Gloria Hu, Kenneth Lee
 
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
 Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
@@ -141,21 +140,48 @@ In an earlier version of this class students experimented with foundational comp
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+The interaction we prototyped involves using hand gestures to control the pitch and combination of notes played in real-time.
+
+We experimented with mapping the vertical position of the fingers to different musical notes, which allowed for an intuitive method of creating music by simply moving one's hands in the air.
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+The system works well in a well-lit environment where the webcam clearly captures hand movements.
+
+2. When does it fail?
+
+However, it fails in low-light conditions or when the hand is too close or too far from the camera. 
+   
+3. When it fails, why does it fail?
+
+Failures occurred mainly due to improper lighting or sudden movements that the hand tracking algorithm could not follow accurately.
+   
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+In real-world usage, users may experience issues if they do not understand the correct distance and lighting required for the system to function properly. To improve, we could implement feedback mechanisms that guide the user to the optimal position and lighting condition for the system to work correctly.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+The design of the system should clearly indicate to users when there is uncertainty in the system's response. Feedback mechanisms can be built into the interactive system to show confidence levels. For example, the system could use phrases like "I'm about 80% sure that..." to communicate uncertainty.
+
+2. How bad would they be impacted by a miss classification?
+
+The impact of a misclassification can vary widely depending on the system's application. For example, in a medical diagnosis system, a misclassification could have serious consequences, whereas in a music recommendation system, the impact would be much less severe.
+Consider the stakes involved and plan for fail-safes or human oversight where the impact of errors could be significant.
+
+3. How could change your interactive system to address this?
+
+Introduce a confirmation step where the system asks for user validation when the confidence level is below a certain threshold. Implement a feedback loop where users can correct the system, helping it to learn and reduce the likelihood of future misclassifications.
+  
+4. Are there optimizations you can try to do on your sense-making algorithm.
+
+Feature engineering can often improve the performance of classification algorithms by providing more relevant information for making decisions. Regularly retrain the model with new data to ensure that it remains accurate. Use more advanced machine learning models if the current ones do not capture the complexity of the task well.
 
 ### Part D
 ### Characterize your own Observant system
@@ -163,17 +189,21 @@ For example:
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+  
 * What is a good environment for X?
+
 * What is a bad environment for X?
-* When will X break?
+
 * When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+
+* What are other properties/behaviors of X? How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
