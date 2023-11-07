@@ -208,6 +208,7 @@ The system feels like an extension of one's body, as it translates natural movem
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+[https://youtu.be/wmnTtiT8cLs]
 
 ### Part 2.
 
@@ -215,4 +216,5 @@ Following exploration and reflection from Part 1, finish building your interacti
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
 
-After refining the interaction based on testing, we have created an interactive system that lets users control a digital musical instrument with their hands. This can be expanded to more complex interactions such as creating different sounds with different hand shapes or combining gestures to compose music in a more sophisticated manner
+[https://youtu.be/VkkK0bF_nbA]
+
