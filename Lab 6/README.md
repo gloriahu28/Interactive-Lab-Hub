@@ -2,6 +2,8 @@
 
 **NAMES OF COLLABORATORS HERE**
 
+Ben Setel, Kenneth Lee, Michael Hanlon, Yifan Yu, Gloria Hu
+
 ## Prep
 
 1. Pull the new changes from the class interactive-lab-hub. (You should be familiar with this already!)
