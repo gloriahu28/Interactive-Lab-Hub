@@ -95,6 +95,18 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
+![Security System](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/af299139-65e8-46a0-a45f-2bd1b68288b3)
+
+![Keypad to control remote servo](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/3fa5109e-311a-42ad-b19e-8077e0e09ba7)
+
+![Automatic sump pump control - pi in a basement w_ capacitance sensor sends message to pi w_ sump pump control servo attached to it when water level reaches certain height](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/20210346-fcb1-4442-bb5e-24297c27a54f)
+
+![Color Sensor](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/9f90072e-421f-4589-b37d-db25767e78e1)
+
+![Gossip Tracker](https://github.com/gloriahu28/Interactive-Lab-Hub/assets/142931503/660ab426-53cc-4355-be7c-a7a5afb83e21)
+
+
+
 
 ### Part C
 ### Streaming a Sensor
