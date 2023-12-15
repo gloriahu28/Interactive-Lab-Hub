@@ -125,6 +125,9 @@ Improvement: Investigating other speech-to-text models could offer improved accu
 
 ## Groupwork Distribution
 Ben, Gil, Michael: Programming, assembling and 3D printing Robot
+
 Gloria: Designing and 3D printing Robot
+
 Kenneth: 3D Printing and testing
+
 Yifan: 3D Printing and documenting
