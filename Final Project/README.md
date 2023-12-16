@@ -79,13 +79,42 @@ And with this driver, this is where we assigned each servo motor:
 | 14 | Right Hand |
 
 ## Design Process Screenshots
+![eddd54170e998ff222fc104335fff1d](https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/31565358-5a18-475d-9d92-361e5b3b5a2b)
+![54d8c7296dae7ee7a5d1ea01736d666](https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/10268f97-46fe-442f-8792-ce6dce033841)
+![5b03da29f1da1d3da1657818feadfb2](https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/11d415c2-ba11-4585-bd0f-40e10589fe4a)
+![f9395075577efdc3fbec3b970d13043](https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/126a76ae-e42c-433f-a676-23e5f0c24acf)
+
+
 
 
 
 ## Archive of all code
 Archive of all code can be found here:
 
-## Video and Testing
+https://github.com/Ruiznogueras05CT/Interactive-Lab-Hub/tree/Fall2023/Final%20Project
+
+
+
+## Video and Testing  
+
+
+
+https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/5c53b079-8878-464b-810d-e86cef55cda4
+
+
+
+https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/80d2ccee-e5e0-4657-b198-06718288c12d
+
+
+
+https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/d3c26350-4bf2-45df-82a3-7092e04e4214
+
+
+
+
+https://github.com/yifanwow/Interactive-Lab-Hub/assets/64716158/e1e67069-e748-499f-8d04-d40c448f5bd3
+
+
 
 ## Reflections on Process (What have we learned or wish we knew at the start?)
 Reflecting on our robot design project at the Makerspace, we created a small robot capable of mimicking human movements. Utilizing 3D printing technology, our primary objective was to construct an “avatar” robot. This robot was designed to replicate a person's movements, tracked and analyzed through a webcam using the Mediapipe library. The setup involved two key components: one Raspberry Pi device ran Mediapipe to capture and process human movements, and another controlled the robot, allowing it to mimic the user's head, shoulders, elbows, and hand movements with servo motors.
